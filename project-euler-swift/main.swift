@@ -9,7 +9,8 @@ import Foundation
 
 var challenges: [Challenge] = [
     Challenge001(),
-    Challenge002()
+    Challenge002(),
+    Challenge003()
 ]
 
 print("Challenge number (1-\(challenges.count)): ")
@@ -21,14 +22,15 @@ if let input = readLine(),
     let challenge = challenges[challengeId - 1]
     printResults(for: challenge)
 } else {
-    print("Invalid parameter")
+    print("Error: Invalid parameter")
 }
 
 func printResults(for challenge: Challenge) {
     let startTime = CFAbsoluteTimeGetCurrent()
     let solution = challenge.solve()
-    print("Solution: \(solution)")
     let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
     let timeElapsedRounded = round(timeElapsed * 1_000) / 1_000
+    
+    print("Solution: \(solution)")
     print("Time elapsed: \(timeElapsedRounded) seconds")
 }
