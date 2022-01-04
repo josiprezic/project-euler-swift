@@ -10,7 +10,8 @@ import Foundation
 var challenges: [Challenge] = [
     Challenge001(),
     Challenge002(),
-    Challenge003()
+    Challenge003(),
+    Challenge004()
 ]
 
 print("Challenge number (1-\(challenges.count)): ")
