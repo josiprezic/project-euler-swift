@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct Challenge005: Challenge {
     let divisorMin = 1
     let divisorMax = 20
