@@ -12,11 +12,8 @@ struct Challenge005: Challenge {
     let divisorMax = 20
     
     func solve() -> Int {
-        var currentResult = divisorMax
-        for divisor in divisorMin..<divisorMax {
-            currentResult = leastCommonMultiple(of: divisor, currentResult)
-        }
-        return currentResult
+        let divisors = Array(divisorMin..<divisorMax)
+        return divisors.reduce(divisorMax, leastCommonMultiple)
     }
     
     private func leastCommonMultiple(of number1: Int, _ number2: Int) -> Int {
