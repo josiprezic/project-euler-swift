@@ -8,8 +8,9 @@
 import Foundation
 
 struct Challenge006: Challenge {
+    let arrayMax = 100
+    
     func solve() -> Int {
-        let arrayMax = 100
         let numbers = Array(1...arrayMax)
         
         let sumOfSquares = numbers.reduce(0) { $0 + $1 * $1 }
