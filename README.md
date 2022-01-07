@@ -15,3 +15,4 @@ This repository is a collection of code solutions for Project Euler challenges. 
 - [x] [#004 - Largest palindrome product](https://projecteuler.net/problem=4) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge004.swift))
 - [x] [#005 - Smallest multiple](https://projecteuler.net/problem=5) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge005.swift))
 - [x] [#006 - Sum square difference](https://projecteuler.net/problem=6) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge006.swift))
+- [x] [#007 - 10001st prime](https://projecteuler.net/problem=7) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge007.swift))
