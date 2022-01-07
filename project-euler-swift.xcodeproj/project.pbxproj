@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7412FACE2788416100AC0977 /* Challenge007.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7412FACD2788416100AC0977 /* Challenge007.swift */; };
 		744816262780E9250062B54B /* Challenge001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744816252780E9250062B54B /* Challenge001.swift */; };
 		744816292780E9A70062B54B /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744816282780E9A70062B54B /* Challenge.swift */; };
 		7448162F2781A5CF0062B54B /* Challenge002.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448162E2781A5CF0062B54B /* Challenge002.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7412FACD2788416100AC0977 /* Challenge007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge007.swift; sourceTree = "<group>"; };
 		744816252780E9250062B54B /* Challenge001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge001.swift; sourceTree = "<group>"; };
 		744816282780E9A70062B54B /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		7448162E2781A5CF0062B54B /* Challenge002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge002.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				746E7A3527839F3400162D22 /* Challenge004.swift */,
 				7458A96F27858ACC009C0EB2 /* Challenge005.swift */,
 				749600532786F101000A07E7 /* Challenge006.swift */,
+				7412FACD2788416100AC0977 /* Challenge007.swift */,
 			);
 			path = solutions;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				7458A97027858ACC009C0EB2 /* Challenge005.swift in Sources */,
 				746E7A3627839F3400162D22 /* Challenge004.swift in Sources */,
 				749600542786F101000A07E7 /* Challenge006.swift in Sources */,
+				7412FACE2788416100AC0977 /* Challenge007.swift in Sources */,
 				744816262780E9250062B54B /* Challenge001.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

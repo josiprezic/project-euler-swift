@@ -13,7 +13,8 @@ var challenges: [Challenge] = [
     Challenge003(),
     Challenge004(),
     Challenge005(),
-    Challenge006()
+    Challenge006(),
+    Challenge007()
 ]
 
 print("Challenge number (1-\(challenges.count)): ")
