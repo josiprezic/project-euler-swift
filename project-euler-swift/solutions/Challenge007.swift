@@ -24,7 +24,7 @@ struct Challenge007: Challenge {
         return primesFound[resultPrimeId - 1]
     }
     
-    func isPrime(_ primeCandidate: Int, primesFound divisorCandidates: [Int]) -> Bool {
+    private func isPrime(_ primeCandidate: Int, primesFound divisorCandidates: [Int]) -> Bool {
         for currentDivisor in divisorCandidates {
             guard primeCandidate >= currentDivisor * currentDivisor else { return true }
             guard primeCandidate.isMultiple(of: currentDivisor) else { continue }
