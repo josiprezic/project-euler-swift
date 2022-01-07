@@ -13,6 +13,7 @@
 		7448162F2781A5CF0062B54B /* Challenge002.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448162E2781A5CF0062B54B /* Challenge002.swift */; };
 		7458A97027858ACC009C0EB2 /* Challenge005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458A96F27858ACC009C0EB2 /* Challenge005.swift */; };
 		746E7A3627839F3400162D22 /* Challenge004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746E7A3527839F3400162D22 /* Challenge004.swift */; };
+		7485A0E4278843E3004832FE /* ChallengeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485A0E3278843E3004832FE /* ChallengeStore.swift */; };
 		749600542786F101000A07E7 /* Challenge006.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749600532786F101000A07E7 /* Challenge006.swift */; };
 		74D424DB2780E553007DE05F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D424DA2780E553007DE05F /* main.swift */; };
 		74D658E42782CC06001D2445 /* Challenge003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D658E32782CC06001D2445 /* Challenge003.swift */; };
@@ -37,6 +38,7 @@
 		7448162E2781A5CF0062B54B /* Challenge002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge002.swift; sourceTree = "<group>"; };
 		7458A96F27858ACC009C0EB2 /* Challenge005.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge005.swift; sourceTree = "<group>"; };
 		746E7A3527839F3400162D22 /* Challenge004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge004.swift; sourceTree = "<group>"; };
+		7485A0E3278843E3004832FE /* ChallengeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeStore.swift; sourceTree = "<group>"; };
 		749600532786F101000A07E7 /* Challenge006.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge006.swift; sourceTree = "<group>"; };
 		74D424D72780E553007DE05F /* project-euler-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project-euler-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D424DA2780E553007DE05F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				744816282780E9A70062B54B /* Challenge.swift */,
+				7485A0E3278843E3004832FE /* ChallengeStore.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				749600542786F101000A07E7 /* Challenge006.swift in Sources */,
 				7412FACE2788416100AC0977 /* Challenge007.swift in Sources */,
 				744816262780E9250062B54B /* Challenge001.swift in Sources */,
+				7485A0E4278843E3004832FE /* ChallengeStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

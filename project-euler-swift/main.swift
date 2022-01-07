@@ -7,16 +7,7 @@
 
 import Foundation
 
-var challenges: [Challenge] = [
-    Challenge001(),
-    Challenge002(),
-    Challenge003(),
-    Challenge004(),
-    Challenge005(),
-    Challenge006(),
-    Challenge007()
-]
-
+let challenges = ChallengeStore.challenges
 print("Challenge number (1-\(challenges.count)): ")
 
 if let input = readLine(),
