@@ -7,7 +7,7 @@
 
 import Foundation
 
-let challenges = ChallengeStore.challenges
+let challenges = ChallengeProvider.challenges
 print("Challenge number (1-\(challenges.count)): ")
 
 if let input = readLine(),

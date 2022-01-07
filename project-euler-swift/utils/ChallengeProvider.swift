@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ChallengeStore {
+struct ChallengeProvider {
     static var challenges: [Challenge] {
         [
             Challenge001(),
