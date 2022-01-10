@@ -20,6 +20,7 @@
 		74D658E42782CC06001D2445 /* Challenge003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D658E32782CC06001D2445 /* Challenge003.swift */; };
 		74D66814278AE56F00AE7323 /* Challenge009.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66813278AE56F00AE7323 /* Challenge009.swift */; };
 		74D66816278C66BF00AE7323 /* Challenge010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66815278C66BF00AE7323 /* Challenge010.swift */; };
+		74D66818278C693D00AE7323 /* Int+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66817278C693D00AE7323 /* Int+Math.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		74D658E32782CC06001D2445 /* Challenge003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge003.swift; sourceTree = "<group>"; };
 		74D66813278AE56F00AE7323 /* Challenge009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge009.swift; sourceTree = "<group>"; };
 		74D66815278C66BF00AE7323 /* Challenge010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge010.swift; sourceTree = "<group>"; };
+		74D66817278C693D00AE7323 /* Int+Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Math.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,19 @@
 			isa = PBXGroup;
 			children = (
 				74D424DA2780E553007DE05F /* main.swift */,
-				744816272780E9940062B54B /* utils */,
 				744816242780E8DE0062B54B /* solutions */,
+				744816272780E9940062B54B /* utils */,
+				74D66819278C6A7300AE7323 /* extensions */,
 			);
 			path = "project-euler-swift";
+			sourceTree = "<group>";
+		};
+		74D66819278C6A7300AE7323 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74D66817278C693D00AE7323 /* Int+Math.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				7448162F2781A5CF0062B54B /* Challenge002.swift in Sources */,
 				74D66816278C66BF00AE7323 /* Challenge010.swift in Sources */,
 				7458A97027858ACC009C0EB2 /* Challenge005.swift in Sources */,
+				74D66818278C693D00AE7323 /* Int+Math.swift in Sources */,
 				746E7A3627839F3400162D22 /* Challenge004.swift in Sources */,
 				749600542786F101000A07E7 /* Challenge006.swift in Sources */,
 				7412FACE2788416100AC0977 /* Challenge007.swift in Sources */,

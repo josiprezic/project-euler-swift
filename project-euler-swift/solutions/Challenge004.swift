@@ -17,16 +17,10 @@ struct Challenge004: Challenge {
         for factorOne in factorMin...factorMax {
             for factorTwo in factorOne...factorMax {
                 let product = factorOne * factorTwo
-                guard product > maxPolindrome, product.isPalindrome() else { continue }
+                guard product > maxPolindrome, product.isPalindrome else { continue }
                 maxPolindrome = product
             }
         }
         return maxPolindrome
-    }
-}
-
-private extension Int {
-    func isPalindrome() -> Bool {
-        "\(self)" == String("\(self)".reversed())
     }
 }

@@ -35,7 +35,3 @@ struct Challenge010: Challenge {
         return true
     }
 }
-
-extension Int {
-    var root: Double { sqrt(Double(self)) }
-}

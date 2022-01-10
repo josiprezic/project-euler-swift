@@ -1,5 +1,5 @@
 //
-//  ChallengeStore.swift
+//  ChallengeProvider.swift
 //  project-euler-swift
 //
 //  Created by Josip Rezic on 07/01/2022.

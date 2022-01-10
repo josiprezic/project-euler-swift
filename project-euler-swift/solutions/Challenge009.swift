@@ -32,7 +32,3 @@ struct Challenge009: Challenge {
         return 0
     }
 }
-
-private extension Int {
-    var squared: Int { self * self }
-}
