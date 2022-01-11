@@ -21,6 +21,7 @@
 		74D66814278AE56F00AE7323 /* Challenge009.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66813278AE56F00AE7323 /* Challenge009.swift */; };
 		74D66816278C66BF00AE7323 /* Challenge010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66815278C66BF00AE7323 /* Challenge010.swift */; };
 		74D66818278C693D00AE7323 /* Int+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66817278C693D00AE7323 /* Int+Math.swift */; };
+		74D6681B278D818800AE7323 /* Challenge011.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D6681A278D818800AE7323 /* Challenge011.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		74D66813278AE56F00AE7323 /* Challenge009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge009.swift; sourceTree = "<group>"; };
 		74D66815278C66BF00AE7323 /* Challenge010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge010.swift; sourceTree = "<group>"; };
 		74D66817278C693D00AE7323 /* Int+Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Math.swift"; sourceTree = "<group>"; };
+		74D6681A278D818800AE7323 /* Challenge011.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge011.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				7488406A2788FDB2005D3DC3 /* Challenge008.swift */,
 				74D66813278AE56F00AE7323 /* Challenge009.swift */,
 				74D66815278C66BF00AE7323 /* Challenge010.swift */,
+				74D6681A278D818800AE7323 /* Challenge011.swift */,
 			);
 			path = solutions;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D6681B278D818800AE7323 /* Challenge011.swift in Sources */,
 				74D424DB2780E553007DE05F /* main.swift in Sources */,
 				74D66814278AE56F00AE7323 /* Challenge009.swift in Sources */,
 				74D658E42782CC06001D2445 /* Challenge003.swift in Sources */,
