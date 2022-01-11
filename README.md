@@ -19,3 +19,4 @@ This repository is a collection of code solutions for Project Euler challenges. 
 - [x] [#008 - Largest product in a series](https://projecteuler.net/problem=8) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge008.swift))
 - [x] [#009 - Special Pythagorean triplet](https://projecteuler.net/problem=9) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge009.swift))
 - [x] [#010 - Summation of primes](https://projecteuler.net/problem=10) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge010.swift))
+- [x] [#011 - Largest product in a grid](https://projecteuler.net/problem=11) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge011.swift))
