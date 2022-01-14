@@ -28,7 +28,7 @@ struct Challenge012: Challenge {
         return triangleCandidate
     }
     
-    func numberOfDivisors(for number: Int) -> Int {
+    private func numberOfDivisors(for number: Int) -> Int {
         var divisorsCount = 0
         let root = Int(number.root)
         for divisorCandidate in 1..<root {
