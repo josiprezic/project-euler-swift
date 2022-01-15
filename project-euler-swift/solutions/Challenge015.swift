@@ -12,7 +12,7 @@ struct Challenge015: Challenge {
     
     func solve() -> Int {
         let matrixSize = gridSize + 1
-        var matrix = createMatrix(of: matrixSize)
+        var matrix: [[Int]] = .createMatrix(of: matrixSize)
         
         for row in 0..<matrixSize {
             for column in 0..<matrixSize {
@@ -27,9 +27,5 @@ struct Challenge015: Challenge {
         let aboveCellValue = matrix[row - 1][column]
         let rightCellValue = matrix[row][column - 1]
         return aboveCellValue + rightCellValue
-    }
-    
-    private func createMatrix(of size: Int, defaultElementValue: Int = 0) -> [[Int]] {
-        Array(repeating: Array(repeating: defaultElementValue, count: size), count: size)
     }
 }

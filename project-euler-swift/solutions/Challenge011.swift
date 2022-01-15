@@ -16,7 +16,7 @@ struct Challenge011: Challenge {
             .components(separatedBy: .whitespacesAndNewlines)
             .compactMap(Int.init)
         
-        let matrix = matrix(from: numbers)
+        let matrix = numbers.asSquareMatrix()
         let transposedMatrix = transpose(matrix)
         let rightDiagonals = rightDiagonalArrays(from: matrix)
         let leftDiagonals = rightDiagonalArrays(from: transposedMatrix)
@@ -26,21 +26,6 @@ struct Challenge011: Challenge {
             .map(largestProduct)
             .sorted()
             .last ?? 0
-    }
-    
-    private func matrix(from array: [Int]) -> [[Int]] {
-        var matrix = [[Int]]()
-        var rowArray = [Int]()
-        var rowMin = 0
-        var rowMax = 0
-        
-        for row in 0..<size {
-            rowMin = row * size
-            rowMax = rowMin + size - 1
-            rowArray = Array(array[rowMin...rowMax])
-            matrix.append(rowArray)
-        }
-        return matrix
     }
     
     private func transpose(_ matrix: [[Int]]) -> [[Int]] {
