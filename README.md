@@ -23,3 +23,4 @@ This repository is a collection of code solutions for Project Euler challenges. 
 - [x] [#012 - Highly divisible triangular number](https://projecteuler.net/problem=12) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge012.swift))
 - [x] [#013 - Large sum](https://projecteuler.net/problem=13) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge013.swift))
 - [x] [#014 - Longest Collatz sequence](https://projecteuler.net/problem=14) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge014.swift))
+- [x] [#015 - Lattice paths](https://projecteuler.net/problem=15) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge015.swift))
