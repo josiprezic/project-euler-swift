@@ -30,9 +30,8 @@ struct Challenge011: Challenge {
     
     private func transpose(_ matrix: [[Int]]) -> [[Int]] {
         var transposed = [[Int]]()
-        var transposedRow = [Int]()
         for index in 0..<size {
-            transposedRow = matrix.map { $0[index] }
+            let transposedRow = matrix.map { $0[index] }
             transposed.append(transposedRow)
         }
         return transposed
@@ -48,10 +47,9 @@ struct Challenge011: Challenge {
     private func rightDiagonalArray(from matrix: [[Int]], indexSum: Int) -> [Int] {
         let rowIndexMax = min(indexSum, size - 1)
         let rowIndexes = Array(0...rowIndexMax)
-        var columnIndex = 0
         
         return rowIndexes.compactMap { rowIndex in
-            columnIndex = indexSum - rowIndex
+            let columnIndex = indexSum - rowIndex
             guard columnIndex < size else { return nil }
             return matrix[rowIndex][columnIndex]
         }

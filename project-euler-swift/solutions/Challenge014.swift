@@ -13,14 +13,12 @@ struct Challenge014: Challenge {
     func solve() -> Int {
         var collatzCountMax = 0
         var collatzNumberMax = 0
-        var collatzCountCandidate = 0
-        var collatzNumberCandidate = 0
         
         var resultCandidates = Set(2...startNumberMax)
         
         while !resultCandidates.isEmpty {
-            collatzNumberCandidate = resultCandidates.popFirst() ?? 0
-            collatzCountCandidate = collatzSequenceCount(for: collatzNumberCandidate, candidatesArray: &resultCandidates)
+            let collatzNumberCandidate = resultCandidates.popFirst() ?? 0
+            let collatzCountCandidate = collatzSequenceCount(for: collatzNumberCandidate, candidatesArray: &resultCandidates)
             
             if collatzCountMax < collatzCountCandidate {
                 collatzCountMax = collatzCountCandidate

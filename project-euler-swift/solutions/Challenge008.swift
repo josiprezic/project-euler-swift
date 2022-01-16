@@ -21,24 +21,20 @@ struct Challenge008: Challenge {
             .compactMap(\.wholeNumberValue)
         
         var candidateArrayStartIndex = 0
-        var candidateArrayEndIndex = 0
-        
-        var candidateArray = ArraySlice<Int>()
-        var candidateProduct = 0
         var largestProduct = 0
         
         let candidateArrayStartIndexMax = factors.count - numberOfDigits
         
         while candidateArrayStartIndex < candidateArrayStartIndexMax {
-            candidateArrayEndIndex = candidateArrayStartIndex + numberOfDigits - 1
-            candidateArray = factors[candidateArrayStartIndex...candidateArrayEndIndex]
+            let candidateArrayEndIndex = candidateArrayStartIndex + numberOfDigits - 1
+            let candidateArray = factors[candidateArrayStartIndex...candidateArrayEndIndex]
             
             if let lastZeroValueIndex = candidateArray.lastIndex(of: 0) {
                 candidateArrayStartIndex = lastZeroValueIndex + 1
                 continue
             }
             
-            candidateProduct = candidateArray.reduce(1, *)
+            let candidateProduct = candidateArray.reduce(1, *)
             
             if candidateProduct > largestProduct {
                 largestProduct = candidateProduct
@@ -46,7 +42,6 @@ struct Challenge008: Challenge {
             
             candidateArrayStartIndex += 1
         }
-        
         return largestProduct
     }
     

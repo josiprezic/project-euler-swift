@@ -12,18 +12,13 @@ struct Challenge009: Challenge {
     
     func solve() -> Int {
         let aRange = 1...(tripletSum / 3)
-        
-        var bMin = 0
-        var bMax = 0
-        
         let cMax = tripletSum / 2
-        var cCandidate = 0
         
         for aCandidate in aRange {
-            bMin = cMax - aCandidate
-            bMax = cMax - (aCandidate + 1) / 2
+            let bMin = cMax - aCandidate
+            let bMax = cMax - (aCandidate + 1) / 2
             for bCandidate in bMin...bMax {
-                cCandidate = tripletSum - aCandidate - bCandidate
+                let cCandidate = tripletSum - aCandidate - bCandidate
                 guard aCandidate.squared + bCandidate.squared == cCandidate.squared else { continue }
                 return aCandidate * bCandidate * cCandidate
             }
