@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Challenge017: Challenge {
+    func solve() -> Int {
+        return -1
+    }
+}

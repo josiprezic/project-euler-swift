@@ -18,6 +18,7 @@
 		7485A0E4278843E3004832FE /* ChallengeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485A0E3278843E3004832FE /* ChallengeProvider.swift */; };
 		7488406B2788FDB2005D3DC3 /* Challenge008.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488406A2788FDB2005D3DC3 /* Challenge008.swift */; };
 		748E9DCD279CB18A00E34461 /* Challenge016.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E9DCC279CB18A00E34461 /* Challenge016.swift */; };
+		748E9DCF279DACB900E34461 /* Challenge017.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E9DCE279DACB900E34461 /* Challenge017.swift */; };
 		749600542786F101000A07E7 /* Challenge006.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749600532786F101000A07E7 /* Challenge006.swift */; };
 		749ED0E1279209640073F39C /* Challenge014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749ED0E0279209640073F39C /* Challenge014.swift */; };
 		749ED0E327931A650073F39C /* Challenge015.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749ED0E227931A650073F39C /* Challenge015.swift */; };
@@ -54,6 +55,7 @@
 		7485A0E3278843E3004832FE /* ChallengeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeProvider.swift; sourceTree = "<group>"; };
 		7488406A2788FDB2005D3DC3 /* Challenge008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge008.swift; sourceTree = "<group>"; };
 		748E9DCC279CB18A00E34461 /* Challenge016.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge016.swift; sourceTree = "<group>"; };
+		748E9DCE279DACB900E34461 /* Challenge017.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge017.swift; sourceTree = "<group>"; };
 		749600532786F101000A07E7 /* Challenge006.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge006.swift; sourceTree = "<group>"; };
 		749ED0E0279209640073F39C /* Challenge014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge014.swift; sourceTree = "<group>"; };
 		749ED0E227931A650073F39C /* Challenge015.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge015.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				749ED0E0279209640073F39C /* Challenge014.swift */,
 				749ED0E227931A650073F39C /* Challenge015.swift */,
 				748E9DCC279CB18A00E34461 /* Challenge016.swift */,
+				748E9DCE279DACB900E34461 /* Challenge017.swift */,
 			);
 			path = solutions;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				748E9DCD279CB18A00E34461 /* Challenge016.swift in Sources */,
 				744816292780E9A70062B54B /* Challenge.swift in Sources */,
 				7448162F2781A5CF0062B54B /* Challenge002.swift in Sources */,
+				748E9DCF279DACB900E34461 /* Challenge017.swift in Sources */,
 				74D66816278C66BF00AE7323 /* Challenge010.swift in Sources */,
 				7458A97027858ACC009C0EB2 /* Challenge005.swift in Sources */,
 				74D66818278C693D00AE7323 /* Int+Math.swift in Sources */,
