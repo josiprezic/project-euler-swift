@@ -18,7 +18,7 @@ struct Challenge001: Challenge {
         // creating a range of the candidate numbers
         (1..<arrayMax)
         
-            // filtering all the multiplies of 3 and 5
+            // filtering all the multiples of 3 and 5
             .filter { $0.isMultiple(of: 3) || $0.isMultiple(of: 5) }
         
             // reducing them to get the result sum
