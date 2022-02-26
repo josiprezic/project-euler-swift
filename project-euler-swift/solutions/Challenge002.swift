@@ -7,6 +7,8 @@
 
 import Foundation
 
+// Challenge description: https://projecteuler.net/problem=2
+
 struct Challenge002: Challenge {
     let valueLimit = 4_000_000
     
