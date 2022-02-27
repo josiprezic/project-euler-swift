@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Challenge description: https://projecteuler.net/problem=1
+// challenge description: https://projecteuler.net/problem=1
 
 struct Challenge001: Challenge {
     

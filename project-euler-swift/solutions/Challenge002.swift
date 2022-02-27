@@ -7,9 +7,11 @@
 
 import Foundation
 
-// Challenge description: https://projecteuler.net/problem=2
+// challenge description: https://projecteuler.net/problem=2
 
 struct Challenge002: Challenge {
+    
+    // upper limit for Fibonacci sequence values
     let valueLimit = 4_000_000
     
     func solve() -> Int {
