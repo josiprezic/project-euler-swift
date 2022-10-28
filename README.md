@@ -26,3 +26,4 @@ This repository is a collection of code solutions for Project Euler challenges. 
 - [x] [#015 - Lattice paths](https://projecteuler.net/problem=15) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge015.swift))
 - [x] [#016 - Power digit sum](https://projecteuler.net/problem=16) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge016.swift))
 - [x] [#017 - Number letter counts](https://projecteuler.net/problem=17) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge017.swift))
+- [x] [#018 - Maximum path sum I](https://projecteuler.net/problem=18) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge018.swift))
