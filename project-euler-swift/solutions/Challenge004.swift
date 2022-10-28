@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=4
+
 struct Challenge004: Challenge {
     let factorMin = 100
     let factorMax = 999

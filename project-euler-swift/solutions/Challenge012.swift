@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=12
+
 // TODO: Use prime factoriasation instead of brute force
 
 struct Challenge012: Challenge {

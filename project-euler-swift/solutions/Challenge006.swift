@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=6
+
 struct Challenge006: Challenge {
     let arrayMax = 100
     

@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=16
+
 struct Challenge016: Challenge {
     let base = 2
     let exponent = 1_000

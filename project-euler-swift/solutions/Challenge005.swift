@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=5
+
 struct Challenge005: Challenge {
     let divisorMin = 1
     let divisorMax = 20

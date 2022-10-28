@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=3
+
 struct Challenge003: Challenge {
     let input = 600_851_475_143
     

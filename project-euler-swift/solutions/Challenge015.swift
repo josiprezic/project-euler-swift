@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=15
+
 struct Challenge015: Challenge {
     let gridSize = 20
     

@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=13
+
 // TODO: Read input from file
 
 struct Challenge013: Challenge {

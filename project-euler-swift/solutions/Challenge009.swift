@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=9
+
 struct Challenge009: Challenge {
     let tripletSum = 1_000
     

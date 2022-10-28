@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=10
+
 struct Challenge010: Challenge {
     let primeMax = 2_000_000
 

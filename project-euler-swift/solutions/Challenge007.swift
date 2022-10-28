@@ -7,6 +7,8 @@
 
 import Foundation
 
+// challenge description: https://projecteuler.net/problem=7
+
 struct Challenge007: Challenge {
     let resultPrimeId = 10_001
     
