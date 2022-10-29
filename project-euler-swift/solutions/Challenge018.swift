@@ -107,5 +107,3 @@ struct Challenge018: Challenge {
         """
     }
 }
-
-// 1074
