@@ -52,6 +52,8 @@ struct Challenge018: Challenge {
     
     // returns the triangle's maximum path sum
     private func triangleMaxSum(for triangle: [[Int]]) -> Int {
+        precondition(!triangle.isEmpty && !triangle[0].isEmpty, "The triangle must contain at least one element.")
+        
         // every triangle has the top and the top value
         let topValue = triangle[0][0]
         
