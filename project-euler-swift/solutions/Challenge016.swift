@@ -14,7 +14,7 @@ struct Challenge016: Challenge {
     let exponent = 1_000
     
     func solve() -> Int {
-        var resultDigits = [base]
+        var resultDigits = ContiguousArray(arrayLiteral: base)
         
         for _ in 1..<exponent {
             var carry = 0

@@ -30,6 +30,7 @@
 		74D66816278C66BF00AE7323 /* Challenge010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66815278C66BF00AE7323 /* Challenge010.swift */; };
 		74D66818278C693D00AE7323 /* Int+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D66817278C693D00AE7323 /* Int+Math.swift */; };
 		74D6681B278D818800AE7323 /* Challenge011.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D6681A278D818800AE7323 /* Challenge011.swift */; };
+		74DBB26F290ED4A7009A52C1 /* ContiguousArray+Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB26E290ED4A7009A52C1 /* ContiguousArray+Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		74D66815278C66BF00AE7323 /* Challenge010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge010.swift; sourceTree = "<group>"; };
 		74D66817278C693D00AE7323 /* Int+Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Math.swift"; sourceTree = "<group>"; };
 		74D6681A278D818800AE7323 /* Challenge011.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge011.swift; sourceTree = "<group>"; };
+		74DBB26E290ED4A7009A52C1 /* ContiguousArray+Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContiguousArray+Matrix.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				74D66817278C693D00AE7323 /* Int+Math.swift */,
 				749ED0E4279328410073F39C /* Array+Matrix.swift */,
+				74DBB26E290ED4A7009A52C1 /* ContiguousArray+Matrix.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				7412FACE2788416100AC0977 /* Challenge007.swift in Sources */,
 				744816262780E9250062B54B /* Challenge001.swift in Sources */,
 				7488406B2788FDB2005D3DC3 /* Challenge008.swift in Sources */,
+				74DBB26F290ED4A7009A52C1 /* ContiguousArray+Matrix.swift in Sources */,
 				7485A0E4278843E3004832FE /* ChallengeProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

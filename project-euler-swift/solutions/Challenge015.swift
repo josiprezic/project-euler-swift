@@ -14,7 +14,7 @@ struct Challenge015: Challenge {
     
     func solve() -> Int {
         let matrixSize = gridSize + 1
-        var matrix: [[Int]] = .createMatrix(of: matrixSize)
+        var matrix: CMatrix<Int> = .createMatrix(of: matrixSize)
         
         for row in 0..<matrixSize {
             for column in 0..<matrixSize {
@@ -24,7 +24,7 @@ struct Challenge015: Challenge {
         return matrix.last?.last ?? 0
     }
     
-    private func latticePathCount(row: Int, column: Int, in matrix: [[Int]]) -> Int {
+    private func latticePathCount(row: Int, column: Int, in matrix: CMatrix<Int>) -> Int {
         if row == 0 || column == 0 { return 1 }
         let aboveCellValue = matrix[row - 1][column]
         let rightCellValue = matrix[row][column - 1]
