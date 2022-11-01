@@ -12,6 +12,8 @@ import Foundation
 // TODO: Use prime factoriasation instead of brute force
 
 struct Challenge012: Challenge {
+    
+    // input data
     let minDivisorsCount = 500
     
     func solve() -> Int {

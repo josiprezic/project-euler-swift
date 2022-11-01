@@ -10,6 +10,8 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=3
 
 struct Challenge003: Challenge {
+   
+    // input data
     let input = 600_851_475_143
     
     func solve() -> Int {

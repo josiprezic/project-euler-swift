@@ -10,6 +10,8 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=11
 
 struct Challenge011: Challenge {
+    
+    // input data
     let size = 20
     let factorCount = 4
     

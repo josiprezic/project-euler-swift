@@ -12,6 +12,8 @@ import Foundation
 // TODO: Read input from file
 
 struct Challenge013: Challenge {
+    
+    // input data
     let resultPrefix = 10
     
     func solve() -> Int {

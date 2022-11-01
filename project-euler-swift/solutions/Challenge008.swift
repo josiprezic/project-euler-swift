@@ -10,6 +10,8 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=8
 
 struct Challenge008: Challenge {
+    
+    // input data
     var inputString: String { getInputString() }
     let numberOfDigits = 13
     

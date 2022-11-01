@@ -10,10 +10,11 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=18
 
 struct Challenge018: Challenge {
+    
+    // input data
+    let input = getInputString()
+    
     func solve() -> Int {
-        
-        // input data
-        let input = getInputString()
         
         // transforming input string into rows of strings
         let rowsArray = input

@@ -10,6 +10,8 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=9
 
 struct Challenge009: Challenge {
+    
+    // input data
     let tripletSum = 1_000
     
     func solve() -> Int {

@@ -10,6 +10,8 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=6
 
 struct Challenge006: Challenge {
+    
+    // input data
     let arrayMax = 100
     
     func solve() -> Int {

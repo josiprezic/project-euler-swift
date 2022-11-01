@@ -10,6 +10,8 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=15
 
 struct Challenge015: Challenge {
+    
+    // input data
     let gridSize = 20
     
     func solve() -> Int {

@@ -10,6 +10,8 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=7
 
 struct Challenge007: Challenge {
+    
+    // input data
     let resultPrimeId = 10_001
     
     func solve() -> Int {

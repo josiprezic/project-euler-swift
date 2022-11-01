@@ -10,6 +10,8 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=14
 
 struct Challenge014: Challenge {
+    
+    // input data
     let startNumberMax = 1_000_000
     
     func solve() -> Int {

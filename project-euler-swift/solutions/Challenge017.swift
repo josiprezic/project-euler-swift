@@ -10,12 +10,13 @@ import Foundation
 // challenge description: https://projecteuler.net/problem=17
 
 struct Challenge017: Challenge {
+    
+    // input data
+    let numberMin = 1
+    let numberMax = 1000
+    let numberRange = (numberMin...numberMax)
+    
     func solve() -> Int {
-        
-        // input data
-        let numberMin = 1
-        let numberMax = 1000
-        let numberRange = (numberMin...numberMax)
         
         // creating number formatter used for mapping numbers to text values
         let formatter = NumberFormatter()
