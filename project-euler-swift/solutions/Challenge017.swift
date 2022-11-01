@@ -13,10 +13,10 @@ struct Challenge017: Challenge {
     
     // input data
     let numberMin = 1
-    let numberMax = 1000
-    let numberRange = (numberMin...numberMax)
+    let numberMax = 1_000
     
     func solve() -> Int {
+        let numberRange = (numberMin...numberMax)
         
         // creating number formatter used for mapping numbers to text values
         let formatter = NumberFormatter()

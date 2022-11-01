@@ -12,7 +12,7 @@ import Foundation
 struct Challenge018: Challenge {
     
     // input data
-    let input = getInputString()
+    var input: String { getInputString() }
     
     func solve() -> Int {
         
