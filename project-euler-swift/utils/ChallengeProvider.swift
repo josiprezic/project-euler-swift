@@ -28,7 +28,8 @@ struct ChallengeProvider {
             Challenge016(),
             Challenge017(),
             Challenge018(),
-            Challenge019()
+            Challenge019(),
+            Challenge020()
         ]
     }
 }
