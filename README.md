@@ -28,3 +28,4 @@ This repository is a collection of code solutions for Project Euler challenges. 
 - [x] [#017 - Number letter counts](https://projecteuler.net/problem=17) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge017.swift))
 - [x] [#018 - Maximum path sum I](https://projecteuler.net/problem=18) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge018.swift))
 - [x] [#019 - Counting Sundays](https://projecteuler.net/problem=19) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge019.swift))
+- [x] [#020 - Factorial digit sum](https://projecteuler.net/problem=20) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge020.swift))
