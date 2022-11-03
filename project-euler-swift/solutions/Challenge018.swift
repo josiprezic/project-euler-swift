@@ -31,9 +31,9 @@ struct Challenge018: Challenge {
         rowsArray.forEach {
             // splitting by spaces to get the row elements
             let numberRow = $0.split(separator: " ")
-            // mapping array values back to strings
+                // mapping array values back to strings
                 .map(String.init)
-            // and finally mapping it to the Int
+                // and finally mapping it to the Int
                 .compactMap(Int.init)
             
             // adding newly created row of elements to
