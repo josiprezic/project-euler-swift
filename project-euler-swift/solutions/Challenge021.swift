@@ -31,7 +31,6 @@ struct Challenge021: Challenge {
         // checking amicability for all array elements
         divisorSums.indices.forEach { index in
             // calculating values related to the first amicable candidate
-            let candidateIndex = index
             let candidateValue = index + valueOffset
             let candidateSumValue = divisorSums[index]
             
