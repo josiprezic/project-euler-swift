@@ -16,6 +16,7 @@ struct Challenge004: Challenge {
     let factorMax = 999
     
     func solve() -> Int {
+        // a palindromic number reads the same both ways
         var maxPolindrome = 0
         
         for factorOne in factorMin...factorMax {
