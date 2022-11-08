@@ -16,7 +16,7 @@ struct Challenge005: Challenge {
     let divisorMax = 20
     
     func solve() -> Int {
-        let divisors = Array(divisorMin..<divisorMax)
+        let divisors = CArray(divisorMin..<divisorMax)
         return divisors.reduce(divisorMax, leastCommonMultiple)
     }
     
