@@ -32,3 +32,4 @@ This repository is a collection of code solutions for Project Euler challenges. 
 - [x] [#021 - Amicable numbers](https://projecteuler.net/problem=21) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge021.swift))
 - [x] [#022 - Names scores](https://projecteuler.net/problem=22) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge022.swift))
 - [x] [#023 - Non-abundant sums](https://projecteuler.net/problem=23) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge023.swift))
+- [x] [#024 - Lexicographic permutations](https://projecteuler.net/problem=24) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge024.swift))
