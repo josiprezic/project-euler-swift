@@ -62,5 +62,3 @@ struct Challenge024: Challenge {
         return combinationsCount / digitsCount
     }
 }
-
-// 2783915460
