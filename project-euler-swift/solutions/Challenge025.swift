@@ -22,13 +22,13 @@ struct Challenge025: Challenge {
         // set index counter to 1 (0, 1) since we already have two first elements
         var resultIndex = 1
         
-        // repeat until calculating the first number with the given number of digits
+        // repeat until finding the first number with the given number of digits
         while secondNumberDigits.count < numberOfDigits {
             // calculate the sum of the last two calculated Fibonacci
             // sequence elements to get the value of the next one
             let sum = sum(a: &firstNumberDigits, b: secondNumberDigits)
             
-            // move values to proper valiables
+            // move values to the proper variables
             firstNumberDigits = secondNumberDigits
             secondNumberDigits = sum
             
