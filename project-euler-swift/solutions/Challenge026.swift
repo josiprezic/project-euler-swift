@@ -15,7 +15,7 @@ struct Challenge026: Challenge {
     let upperBound = 1_000
     
     func solve() -> Int {
-        precondition(upperBound > 0, "Upper bound has to be highter than 0.")
+        precondition(upperBound > 0, "Upper bound has to be higher than 0.")
         // creating the range of candidates
         let candidates = (1..<upperBound)
         // calculating recurrying cycle coount for each of them
@@ -26,10 +26,10 @@ struct Challenge026: Challenge {
         return (indexOfMax ?? 0) + 1
     }
     
-    // returns the recurring cycle length of a decimal fraction part for a given number.
+    // returns the recurring cycle length of a decimal fraction part for a given number
     private func recurringCycleCount(for number: Int) -> Int {
         // instead of calculating the decimal fraction part and checking it's content to
-        // find the recurring cycle, we're just creating a list of all remainders calculated.
+        // find the recurring cycle, we're just creating a list of all remainders calculated
         var remainders = [Int]()
         
         // all the fractions have the numerator equal to 1
