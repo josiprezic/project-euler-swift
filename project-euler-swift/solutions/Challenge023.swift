@@ -50,10 +50,8 @@ struct Challenge023: Challenge {
         // creating sum variable
         var sumOfDivisors = 0
         
-        
-        for divisorCandidate in divisorCandidates {
-            // checking if divisor candidate is actually a divisor
-            guard value.isMultiple(of: divisorCandidate) else { continue }
+        // checking if divisor candidate is actually a divisor using where check
+        for divisorCandidate in divisorCandidates where value.isMultiple(of: divisorCandidate) {
             // if so, adding a divisor to the sum of divisors
             sumOfDivisors += divisorCandidate
             

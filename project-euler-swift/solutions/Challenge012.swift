@@ -35,8 +35,7 @@ struct Challenge012: Challenge {
     private func numberOfDivisors(for number: Int) -> Int {
         var divisorsCount = 0
         let root = Int(number.root)
-        for divisorCandidate in 1..<root {
-            guard number.isMultiple(of: divisorCandidate) else { continue }
+        for divisorCandidate in 1..<root where number.isMultiple(of: divisorCandidate) {
             divisorsCount += 2
         }
         if root * root == number {
