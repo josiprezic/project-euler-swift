@@ -15,9 +15,13 @@ struct Challenge006: Challenge {
     let arrayMax = 100
     
     func solve() -> Int {
+        // creating numbers array
         let numbers = Array(1...arrayMax)
         
+        // calculating sum of squares
         let sumOfSquares = numbers.reduce(0) { $0 + $1 * $1 }
+        
+        // calculating square of a sum
         let sum = numbers.reduce(0, +)
         let squareOfSum = sum * sum
         
