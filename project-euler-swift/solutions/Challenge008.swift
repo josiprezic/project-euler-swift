@@ -16,34 +16,51 @@ struct Challenge008: Challenge {
     let numberOfDigits = 13
     
     func solve() -> Int {
+        // regex used for searching adjacent digits containing 0
+        // all these filtered digits have the product value equal
+        // to zero, so we can ignore them
         let filteringRegex = "0+.{0,\(numberOfDigits - 1)}0+"
         
         let factors = inputString
+            // getting all the rows
             .components(separatedBy: .whitespacesAndNewlines)
+            // joining them
             .joined()
+            // replacing all the zero-product regex results with 0 to optimize calculations
             .replacingOccurrences(of: filteringRegex, with: "0", options: .regularExpression)
+            // converting the string to numbers
             .compactMap(\.wholeNumberValue)
         
+        // helper variables
         var candidateArrayStartIndex = 0
         var largestProduct = 0
         
+        // calculating the last possible start index
         let candidateArrayStartIndexMax = factors.count - numberOfDigits
         
+        // going through all the possible arrays/combinations
         while candidateArrayStartIndex < candidateArrayStartIndexMax {
+            // calculating the end index for a given start index
             let candidateArrayEndIndex = candidateArrayStartIndex + numberOfDigits - 1
+            // calculating candidate factors
             let candidateArray = factors[candidateArrayStartIndex...candidateArrayEndIndex]
             
+            // if it contains 0, then just skip it
             if let lastZeroValueIndex = candidateArray.lastIndex(of: 0) {
                 candidateArrayStartIndex = lastZeroValueIndex + 1
                 continue
             }
             
+            // otherwise calculate a candidate product
             let candidateProduct = candidateArray.reduce(1, *)
             
+            // if the current candidate product is the greatest found,
+            // then store it's value to the largest product variable
             if candidateProduct > largestProduct {
                 largestProduct = candidateProduct
             }
             
+            // prepare startIndex for the next iteration
             candidateArrayStartIndex += 1
         }
         return largestProduct
