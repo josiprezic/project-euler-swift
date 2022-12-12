@@ -15,17 +15,26 @@ struct Challenge010: Challenge {
     let primeMax = 2_000_000
 
     func solve() -> Int {
+        // creating list used to store primes
         var primesFound = [2]
+        // initializing variable used to store prime candidates
         var currentPrimeCandidate = 3
 
+        // while current candidate is smalled than upper bound
         while primesFound.last ?? Int.max < primeMax {
-            if isPrime(currentPrimeCandidate, primesFound: primesFound) {
+            // append number to the primes list if it is a prime
+            if isPrime(currentPrimeCandidate, primesFou
+                       nd: primesFound) {
                 primesFound.append(currentPrimeCandidate)
             }
+            // otherwise move to the next odd number
             currentPrimeCandidate += 2
         }
 
+        // remove the last one since it's larger than upper bound
         primesFound.removeLast()
+        
+        // return sum of the primes
         return primesFound.reduce(0, +)
     }
 
