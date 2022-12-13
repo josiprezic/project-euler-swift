@@ -23,8 +23,7 @@ struct Challenge010: Challenge {
         // while current candidate is smalled than upper bound
         while primesFound.last ?? Int.max < primeMax {
             // append number to the primes list if it is a prime
-            if isPrime(currentPrimeCandidate, primesFou
-                       nd: primesFound) {
+            if isPrime(currentPrimeCandidate, primesFound: primesFound) {
                 primesFound.append(currentPrimeCandidate)
             }
             // otherwise move to the next odd number
