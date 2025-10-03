@@ -35,3 +35,4 @@ This repository is a collection of code solutions for Project Euler challenges. 
 - [x] [#024 - Lexicographic permutations](https://projecteuler.net/problem=24) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge024.swift))
 - [x] [#025 - 1000-digit Fibonacci number](https://projecteuler.net/problem=25) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge025.swift))
 - [x] [#026 - Reciprocal cycles](https://projecteuler.net/problem=26) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge026.swift))
+- [x] [#027 - Quadratic Primes](https://projecteuler.net/problem=27) ([solution](https://github.com/josiprezic/project-euler-swift/blob/main/project-euler-swift/solutions/Challenge027.swift))
